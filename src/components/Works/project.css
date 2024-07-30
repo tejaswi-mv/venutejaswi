@@ -1,0 +1,29 @@
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 30px;
+  }
+  
+  .card {
+    border: 1px solid black;
+    padding: 10px;
+    height : 25vh;
+    
+  }
+  
+ 
+  h1>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color : var(--black);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+   strong{
+    color:var(--orange);
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+  }
+
+ 
