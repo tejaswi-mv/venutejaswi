@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./projectCard";
 // Suggested code may be subject to a license. Learn more: ~LicenseLog:3486658652.
 import facebook from "../../img/calcu.png";
-import cal from "../../img/calcu.png";
-
-import rec from "../../img/recom.png";
+import cal from "../../img/cal.png";
+import Chat from "../../img/chati.png"
+import rec from "../../img/rrb.png";
 import instagram from "../../img/recom.png";
-import pay from "../../img/PayPal-SmartContract.png"
+import pay from "../../img/pps.png";
 import "./proj.css";
 
 function Projects() {
@@ -26,10 +26,10 @@ function Projects() {
             <ProjectCard
               imgPath={pay}
               isBlog={false}
-              title="Chatify"
+              title="PayPal Smart Contract"
               description=""
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              ghLink="https://github.com/tejaswi-mv/PayPal-Smart-Contract"
+              demoLink="https://amoy.polygonscan.com/address/0x805Cdc684a25AD7dea390fF57319D812Bc45737B#readContract"
             />
           </Col>
 
@@ -37,9 +37,9 @@ function Projects() {
             <ProjectCard
               imgPath={rec}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="Movflix"
               description=""
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              ghLink="https://github.com/tejaswi-mv/movierec"
               demoLink="https://movflix.streamlit.app/"
             />
           </Col>
@@ -48,19 +48,19 @@ function Projects() {
             <ProjectCard
               imgPath={cal}
               isBlog={false}
-              title="Editor.io"
+              title="Mac-os Calculator"
               description=""
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/tejaswi-mv/calculatorapp"
+              demoLink="https://macoscalculator-tejaswi-mvs-projects.vercel.app/"              
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cal}
+              imgPath={Chat}
               isBlog={false}
-              title="Editor.io"
+              title=""
               description=""
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/tejaswi-mv/Mern-Stack-Chat-Application"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>

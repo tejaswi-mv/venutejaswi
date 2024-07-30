@@ -35,7 +35,8 @@
   }
   
   .n-list > ul :hover {
-    color: white;
+    color: #b562d6 !important;
+
     cursor: pointer;
   }
   
